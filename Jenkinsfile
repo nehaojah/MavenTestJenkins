@@ -22,7 +22,7 @@ pipeline{
 					java -version
 					mvn -version
 					ls
-                                        sudo mvn clean test
+                                        mvn clean test
 				
 				'''
 				
