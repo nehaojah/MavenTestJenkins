@@ -20,6 +20,7 @@ pipeline{
 					java -version
 					mvn -version
 					ls
+                                         mvn clean test
 				
 				'''
 				
