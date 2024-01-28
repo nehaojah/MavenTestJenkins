@@ -50,7 +50,7 @@ pipeline{
 
  post { 
         always { 
-             cleanWs()
+             sh "sudo rm -rf \"$WORKSPACE\"/.*"
         }
     }
 		}
